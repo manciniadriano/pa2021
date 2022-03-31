@@ -1,4 +1,4 @@
-sudo docker run --rm -p 8080:8080 -e PGUSER=postgres -e PGPASSWORD=postgres -e PGDATABASE=pa -e PGPORT=5432 -e PGHOST=172.17.0.2 nodepg
-sudo docker run --rm --name pg -v "$(pwd)":/usr/src/ -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
-sudo docker exec -it pg psql -U postgres -f /usr/src/scripts/schema.sql
-sudo docker exec -it pg psql -U postgres -f /usr/src/scripts/0.sql
+docker run --rm -p 8080:8080 -e PGUSER=postgres -e PGPASSWORD=postgres -e PGDATABASE=pa -e PGPORT=5432 -e PGHOST=172.17.0.2 nodepg
+docker run --rm --name pg -v "$(pwd)":/usr/src/ -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
+docker exec -it pg psql -U postgres -f /usr/src/scripts/schema.sql
+docker exec -it pg psql -U postgres -f /usr/src/scripts/0.sql
