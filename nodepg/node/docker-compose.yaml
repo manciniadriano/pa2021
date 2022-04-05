@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+    dbpg:
+        image: postgres
+        restart: always
+        environment:
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=postgres
+        ports:
+          - 5432:5432
+        volumes: 
+          # copy the sql script to create tables
+          - ./scripts/full.sql:/docker-entrypoint-initdb.d/full.sql          
+    web-node:
+        build: .
+        ports:
+          - 8080:8080
+        environment:
+          - PGUSER=postgres
+          - PGDATABASE=pa
+          - PGHOST=dbpg
+          - PGPASSWORD=postgres
+          - PGPORT=5432
+        depends_on:
+          - dbpg
