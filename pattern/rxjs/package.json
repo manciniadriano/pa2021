@@ -1,0 +1,17 @@
+{
+  "name": "rxjsex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "websocketclient.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.5.5",
+    "websocket": "^1.0.34",
+    "ws": "^8.7.0"
+  }
+}
