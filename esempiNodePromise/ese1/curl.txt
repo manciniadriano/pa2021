@@ -1,0 +1,8 @@
+curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"  localhost:3000/
+//payload vuoto
+curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e30.4_MUctt5tm4F7cn1T5PnDQiHRyX8OlPa9nwxXdZCNx8"  localhost:3000/
+//JWT
+curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJHaXZlbk5hbWUiOiJBbGV4IiwiU3VybmFtZSI6IkdhbGRlbGxpIn0.K-FW8DIA9OyQMpULAl6ABV8iPU93hyoHFBEAZcWVfj8"  localhost:3000/
+
+//JWT
+curl -X GET -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBQ01FIiwiaWF0IjoxNjUyODY4NTExLCJleHAiOjE2NTU1NDY5MTEsImF1ZCI6Ind3dy5teWFwcC5jb20iLCJzdWIiOiJhLm1hbmNpbmlAc3RhZmYudW5pdnBtLml0IiwiR2l2ZW5OYW1lIjoiQWRyaWFubyIsIlN1cm5hbWUiOiJNYW5jaW5pIiwiRW1haWwiOiJhLm1hbmNpbmlAc3RhZmYudW5pdnBtLml0IiwiUm9sZSI6WyJUZWFjaGVyIiwiUmVzZWFyY2hlciJdfQ.4gyyJHr90IwBVDYVwSa45mtvs8cYrdRF8MYhMT3SdXo"  localhost:3000/
