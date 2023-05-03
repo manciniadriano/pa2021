@@ -1,0 +1,20 @@
+{
+  "name": "orm",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  }
+}
